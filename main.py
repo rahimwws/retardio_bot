@@ -12,12 +12,12 @@ PATHS = {
 
 CAPTIONS = {
     "pc": """1. Open your 𝕏 or Telegram
-2. Click on the GIF icon and sarch _crypto clown_
+2. Click on the GIF icon and sarch <code>crypto clown</code>
 3. Choose your GIF and send it 🚀""",
     
     "phone": """1. Download and Open Tenor
 2. Enable Keyboard Permissions
-3. Return to Tenor and Search _crypto clown_
+3. Return to Tenor and Search <code>crypto clown</code>
 4. Add Retardio GIFs to your Pack
 5. Spread these gifs everywhere"""
 }
@@ -55,14 +55,14 @@ class VideoBot:
                 sent_message = await callback.message.answer_video(
                     video=video,
                     caption=CAPTIONS[video_type],
-                    parse_mode="Markdown"
+                    parse_mode="HTML"
                 )
                 self.file_ids[video_type] = sent_message.video.file_id
             else:
                 await callback.message.answer_video(
                     video=self.file_ids[video_type],
                     caption=CAPTIONS[video_type],
-                    parse_mode="Markdown"
+                    parse_mode="HTML"
                 )
         except Exception as e:
             print(f"Error while sending {video_type} video: {e}")
