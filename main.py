@@ -11,12 +11,16 @@ PATHS = {
 }
 
 CAPTIONS = {
-    "pc": """How to use gifs on your PC:
+    "pc": """<h1>How to use gifs on your PC:</h1>
+
+    
 Step 1: Open 𝕏/Telegram
 Step 2: Click on the GIF icon and Search <code>crypto clown</code>
 Step 3: Choose your GIF and send it 🚀""",
     
-    "phone": """How to use gifs on your Phone:
+    "phone": """<h1>How to use gifs on your Phone:</h1>
+
+
 Step 1: Download and open Tenor
 Step 2: Search crypto clown
 Step 3: Add Retardio GIFs to your pack
