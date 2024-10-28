@@ -11,15 +11,16 @@ PATHS = {
 }
 
 CAPTIONS = {
-    "pc": """1. Open your 𝕏 or Telegram
-2. Click on the GIF icon and sarch <code>crypto clown</code>
-3. Choose your GIF and send it 🚀""",
+    "pc": """How to use gifs on your PC:
+    Step 1: Open 𝕏/Telegram
+    Step 2: Click on the GIF icon and Search <code>crypto clown</code>
+    Step 3: Choose your GIF and send it 🚀""",
     
-    "phone": """1. Download and Open Tenor
-2. Enable Keyboard Permissions
-3. Return to Tenor and Search <code>crypto clown</code>
-4. Add Retardio GIFs to your Pack
-5. Spread these gifs everywhere"""
+    "phone": """How to use gifs on your Phone:
+    Step 1: Download and open Tenor
+    Step 2: Search crypto clown
+    Step 3: Add Retardio GIFs to your pack
+    Step 4: Send GIFs from your keyboard. Anywhere 🌍"""
 }
 
 class VideoBot:
