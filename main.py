@@ -12,15 +12,15 @@ PATHS = {
 
 CAPTIONS = {
     "pc": """How to use gifs on your PC:
-    Step 1: Open 𝕏/Telegram
-    Step 2: Click on the GIF icon and Search <code>crypto clown</code>
-    Step 3: Choose your GIF and send it 🚀""",
+Step 1: Open 𝕏/Telegram
+Step 2: Click on the GIF icon and Search <code>crypto clown</code>
+Step 3: Choose your GIF and send it 🚀""",
     
     "phone": """How to use gifs on your Phone:
-    Step 1: Download and open Tenor
-    Step 2: Search crypto clown
-    Step 3: Add Retardio GIFs to your pack
-    Step 4: Send GIFs from your keyboard. Anywhere 🌍"""
+Step 1: Download and open Tenor
+Step 2: Search crypto clown
+Step 3: Add Retardio GIFs to your pack
+Step 4: Send GIFs from your keyboard. Anywhere 🌍"""
 }
 
 class VideoBot:
